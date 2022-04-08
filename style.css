@@ -1,0 +1,216 @@
+* { font-family: 'Assistant', sans-serif;
+    height: fit-content;
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+    }
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #717343;
+    }
+nav a{
+    text-decoration: none;
+    font-family: 'Playfair Display', serif; 
+        }
+
+.name{
+    font-size: 3em;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-left:.5em;
+        }
+.name a{
+    color: #F1F2D5;
+}
+.name :hover{
+    color: #A3A660;
+}
+.barra{
+    font-size: 1em;  
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.5em;
+      }
+.barra a{
+    padding: 1em;
+    color: #F1F2D5;
+    }
+.barra :hover{
+    color:#A3A660;
+}    
+
+.intro{
+    background-image: url(fondoo.jpg);
+    background-size: 80%;
+    height: 35rem;
+    }
+
+h1{
+    margin-top: 0%;
+    font-family: 'Playfair Display', serif; 
+    font-size: 2em;
+    text-align: center;
+    color: #717343;
+    padding-top: 5em;
+}  
+h2{
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.5em;
+    text-align: center;
+    color: #717343;
+}  
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 15%;
+    background-color: #717343;
+    font-family: 'Playfair Display', serif; 
+    color: #F1F2D5;
+    font-size: 1em;
+    padding: .5em;
+       }
+    button:hover{
+        color: #A3A660;
+    }
+.productos{
+    background-color: #F1F2D5;
+    width: 100%;
+    min-height: 50em;
+    }    
+
+h3{
+    margin-top: 0%;
+    padding-top: 5em;
+    font-family: 'Playfair Display', serif; 
+    font-size: 1em;
+    text-align: center;
+    color: #717343;
+}
+h4{
+    font-family: 'Playfair Display', serif; 
+    font-size: 2em;
+    text-align: center;
+    color: #717343;
+}
+.foto{
+    width: 15em;
+    border:.2em solid #717343;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.dos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+        }
+
+.desc{
+    display:flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    color: #717343;
+    font-size: 1.5em;
+}
+
+.comprar{
+    padding: 2.5em;
+    display: flex;
+    align-items: center;
+    background-color: #F1F2D5;
+    
+}
+
+.taza{
+    height: 25em;
+    min-width: auto;
+    border:1em solid #717343;
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
+   }
+.info {  
+    font-family: 'Playfair Display', serif; 
+    min-width: 20em;
+   align-items: center;
+    text-align: center;
+    color: #717343;
+    font-size: 1em;
+    padding-left: 1em;
+}   
+.newc{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+   }   
+.comprar a{
+    text-decoration: none;
+    color: #717343;
+    font-family: 'Playfair Display', serif;
+    }
+.newc:hover {
+    color: #A3A660;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    background-color: #717343;
+    padding: 2em;
+    }
+footer a{
+    text-decoration: none;
+    color: #F1F2D5;
+    font-family: 'Playfair Display', serif;
+    font-size: 1em;
+    padding-right: 2em;
+} 
+.pregunta{
+    display: flex;
+    justify-content: flex-start;
+} 
+.pregunta :hover{
+    color: #A3A660;
+}
+.ligas{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    }
+.redes{
+    height: 2em;
+    }
+.ligas a :hover{
+filter: blur(1em);
+transition:all .4s ease-in-out;
+}
+
+
+@media (max-width:700px){
+    .barra { flex-direction: column;}
+nav{  padding: 10px 0px;
+}
+.dos{ flex-direction: column;}
+.comprar {flex-direction: column;  
+}
+.taza{
+    
+    
+}  
+
+   
+
+
